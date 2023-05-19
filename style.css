@@ -1,0 +1,176 @@
+*{
+    overflow: hidden;
+    
+}
+.main {
+    display: flex;
+    height: 100vh;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    background: #3c3b3b;
+    background-image: url(./images/b1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 55%;
+    font-weight: 700;
+}
+
+.inner-1 {
+    display: flex;
+    flex-direction: column;
+    width: 60px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 28px;
+    justify-content: space-between;
+    border-right: solid 1px whitesmoke;
+    
+}
+.inner-1a p{
+    padding: 30px 0 ;
+    margin: 0 0 ;
+    color: #ffffff; 
+}
+.inner-2{
+    position: relative;
+    width: 100%;
+}
+
+.inner-p p {
+    transform: rotate(-90deg);
+    color: #b1acac;
+    font-size: 18px;
+    line-height: 44px;
+    
+}
+
+.page {
+    display: flex;
+    font-size: 18px;
+    color: #ffffff;
+    justify-content: end;
+    width: 100%;
+    justify-content: end;
+    column-gap: 40px;
+    align-items: center;
+    font-weight: 700;
+
+}
+.page-inner-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 50px;
+    padding: 20px 0;
+}
+.page-inner-2 img{
+    max-width: 25px;
+    margin-right: 20px;
+    padding-top: 5px;
+}
+.page p a{
+    text-decoration-line: none;
+}
+
+.page .active {
+    color: #efc862;
+    border-bottom: solid 1px #efc862;
+}
+
+.num {
+    line-height: 32px;
+     padding: 1% 6%;
+    font-size: 14px;
+    color: #b1acac;
+    display: flex;
+    
+}
+.num-inner-1{
+    width: 40%;
+    font-weight: 700;
+}
+
+.num .line {
+    border-bottom: solid 1px blue;
+    width: 100px;
+    font-size: 16px;
+}
+
+.num .active {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.note .active{
+    color: #ffffff;
+    font-size: 40px;
+    line-height: 45px;
+}
+.note p {
+    line-height: 20px;
+}
+
+.note {
+    font-size: 14px;
+    color: #b1acac;
+    line-height: 45px;
+    padding-left: 30%;
+    font-weight: 700;
+}
+
+.bottom{
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.41);
+    color: #b1acac;
+    padding-top: 20px;
+    font-size: 12px;
+    max-height: 25%;
+    width: 100%;
+    font-weight: 700;
+    
+}
+.bottom-inner{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.bottom-inner-1 {
+    padding-left: 15px;
+}
+.bottom-inner div{
+    width: 25%;
+}
+ 
+.bottom-inner-4 .active{
+    color: #ffffff;
+    font-size: 20px;
+    padding-left: 0;
+}
+
+.bottom-inner-4 {
+    padding-right: 15px;
+}
+.bottom-inner-2 {
+    padding-top: 45px;
+}
+
+.bottom-inner-2 .mini-1 {
+    color: #ffffff;
+}
+
+.bottom-inner-1 .active {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.bottom-inner-1 .mini-1 {
+    color: #ffffff;
+}
+
+.bottom-inner-4 .active-1 {
+    color: #efc862;
+    font-size: 14px;
+} 
